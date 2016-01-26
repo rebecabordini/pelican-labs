@@ -16,3 +16,6 @@ help:
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 	@echo
+
+requirements:
+	@pip install -r requirements.txt
